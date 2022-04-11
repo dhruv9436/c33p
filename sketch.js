@@ -23,7 +23,7 @@ function setup() {
   world = engine.world;
  createSprite(400, 200, 50, 50);
 for (var i=0;i<snowm;i++){
-  snow3.push(new snowf(random(0,1200),random(0,800),20))
+  snow3.push(new snowf(random(0,120000),random(0,80000),2000))
 
 }
 
