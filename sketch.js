@@ -6,7 +6,7 @@ const Constraint = Matter.Constraint;
 
 var  engine,world;
 var  bg ,bgimg;
-var snowm=1000
+var snowm=10000000000
 var snow3 =[];
 function preload(){
   bgimg=loadImage("snow1.jpg");
@@ -22,7 +22,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
  createSprite(400, 200, 50, 50);
-for (var i=30;i<snowm;i++){
+for (var i=0;i<snowm;i++){
   snow3.push(new snowf(random(0,1200),random(0,800),20))
 
 }
